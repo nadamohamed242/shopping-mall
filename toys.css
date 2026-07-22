@@ -22,7 +22,7 @@ nav{
     justify-content: center;
     text-shadow: 2px 2px 8px black;
 }
-a{
+nav a{
     backdrop-filter: blur(5px);
     color: white;
     gap: 15px;
