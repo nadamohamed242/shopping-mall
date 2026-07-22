@@ -64,18 +64,14 @@ body {
     color: #402a23;
     margin: 5px;
 }
-.main-menu:hover {
-    background-color: #fff9f1;
-}
 .nav a:hover {
-    color: rgb(177,144,97); 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: rgba(235, 162, 59, 0.811);
 }
 .main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 30px;
+    gap: 20px;
     z-index: -1;
     animation: scroll-left 25s linear infinite;
 }
@@ -90,6 +86,7 @@ body {
 .container {
     width: 300px;
     height: 450px;
+    flex-shrink: 0;
     border: 3px solid #d8b18a;
     border-radius: 5px;
     margin-top: 70px;
@@ -107,6 +104,7 @@ body {
     height: 250px;
 }
 .main .container p {
+    margin-top: 5px;
     margin-left: 10px;
     font-size: 19px;
 }
@@ -278,4 +276,16 @@ body {
     width: 25px;
     text-align: center;
     display: inline-block;
+}
+@media screen (max-width:450px) {
+    .header {
+        width: 400px;
+    }
+    .search input {
+        display: block;
+        padding: 10px 250px 10px 15px;
+    }
+    .nav ul {
+        display:none;
+    } 
 }

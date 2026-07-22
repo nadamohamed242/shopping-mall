@@ -102,14 +102,6 @@ nav ul li a{
     animation: fadein 0.8s ease-in forwards;
 }
 
-footer{
-    text-align: center;
-    padding: 10px;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-}
-
 a{
     text-decoration-line: none;
 }
