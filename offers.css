@@ -1,0 +1,95 @@
+.offer-banner {
+    height: 600px;
+    background-image: url("banner-offer.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-content {
+    text-align: center;
+    max-width: 700px;
+}
+
+.offers {
+    padding: 50px;
+    text-align: center;
+}
+
+.offers p {
+    font-size: 20px;
+    color:#402a23;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+.offers h2{
+    font-style: italic;
+}
+
+.offers-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.offer-card {
+    width: 280px;
+    background: #ffeed5ec;;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .15);
+    transition: 0.3s;
+}
+
+.offer-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, .25);
+}
+
+.offer-card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.offer-card h3 {
+    color: #402a23;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.offer-card h1 {
+    color: #3a2e20db;
+    font-size: 38px;
+    margin: 15px 0;
+}
+
+
+.offer-card p {
+    font-size: 18px;
+    color: #402a23;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+.offer-card button {
+    width: 85%;
+    margin: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    background: #402a23;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.offer-card button:hover {
+    background: #6d4f06;
+}
+.btn-sale a{
+    text-decoration: none;
+    color: white;
+}
