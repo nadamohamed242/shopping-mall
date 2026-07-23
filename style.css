@@ -561,13 +561,6 @@ main {
         max-width: 320px;
     }
 
-    .footer {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 25px;
-    }
-
 }
 
 /*Small Phone */
@@ -600,4 +593,34 @@ main {
 img {
     max-width: 100%;
     height: auto;
+}
+
+@media (max-width:768px) {
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        padding: 25px 20px;
+    }
+
+    .footer div {
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer ul {
+        padding: 0;
+    }
+
+    #contact-foot,
+    #social-foot {
+        align-items: center;
+    }
+
+    #social-foot a {
+        justify-content: center;
+    }
+
 }
