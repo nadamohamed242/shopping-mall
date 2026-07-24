@@ -181,11 +181,11 @@ button:hover {
 
 @media (max-width: 768px) {
     nav{
-        gap: 1px;
+        gap: 0px;
     }
     nav a{
-        gap: 1px;
-        padding: 1px;
+        gap: 0px;
+        padding: 0px;
         margin: 0px;
     }
 }
